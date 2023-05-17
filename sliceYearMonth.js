@@ -1,5 +1,6 @@
-let year = prompt("Enter a year: ");
-let month = year.slice(05, 07);
+let yeard = prompt("Enter a year: ");
+let month = yeard.slice(05, 07);
+let year = yeard.slice(0, 04);
 let day;
 if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
   if (month == "02") {
